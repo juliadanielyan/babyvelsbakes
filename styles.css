@@ -4,7 +4,7 @@ div.babyvelsbakes, div.menubar, div.contact {
 }
 
 body {
-  background-color: #fff6f0;
+  background-color: #white;
 }
 
 h1 {
@@ -20,25 +20,27 @@ ul.menubar {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: #fff6f0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
 }
 
   li a {
   display: block;
-  color: black;
+  color: #3f4447;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li{
-  float: left;
+  float:left;
+  margin: 0 0 0 0;
 }
 
 li a:hover {
   background-color: white;
-}
-.active {
-  background-color: #4CAF50;
 }
 
 ul.contact {
