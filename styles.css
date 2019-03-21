@@ -1,0 +1,57 @@
+div.babyvelsbakes, div.menubar, div.contact {
+  font-family: arial;
+  text-align: center;
+}
+
+body {
+  background-color: #fff6f0;
+}
+
+h1 {
+  color:#e85c69;
+  font-size:5em;
+}
+ul.menubar {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+  li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li{
+  float: left;
+}
+
+li a:hover {
+  background-color: white;
+}
+.active {
+  background-color: #4CAF50;
+}
+
+ul.contact {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+
+li.menubar {
+  margin: 0 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
