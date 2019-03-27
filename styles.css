@@ -71,6 +71,10 @@ h3 {
   margin-bottom:0px;
 }
 
+ion-icon {
+  font-size: 30px;
+}
+
 .bbv {
     width: 700px;
     height: auto;
