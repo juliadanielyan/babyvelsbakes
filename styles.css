@@ -1,10 +1,10 @@
-div.babyvelsbakes, div.menubar, div.contact {
+div.babyvelsbakes, div.menubar {
   font-family: arial;
   text-align: center;
 }
 
 body {
-  background-color: #fff6f0;
+  background-color: #white;
 }
 
 h1 {
@@ -25,45 +25,57 @@ p {
 
 ul.menubar {
   list-style-type:none;
-  margin: 0;
-  padding: 0;
   font-family: arial;
-  list-style-type: none;
-  margin: 0;
+  margin-top: 15px;
   padding: 0;
   overflow: hidden;
+  background-color: #fff6f0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 
-  li a {
+
+li a {
   display: block;
-  color: black;
+  color: #3f4447;
   text-align: center;
-  padding: 14px 16px;
+  font-size:16px;
+  padding: 14px 100px;
   text-decoration: none;
 }
 
-li{
-  float: left;
-}
 
 li a:hover {
   background-color: white;
 }
 .active {
-  background-color: #4CAF50;
+  border-color: #4CAF50;
+}
+
+div.contact {
+  font-family: arial;
+  text-align: center;
+  background-color:#fff6f0;
 }
 
 ul.contact {
-  list-style-type:none;
-  margin: 0;
-  padding: 0;
+ list-style-type: none;
+ display:inline;
 }
 
-li.menubar {
-  margin: 0 20px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+h3 {
+  margin-bottom:0px;
+}
+
+.bbv {
+    width: 700px;
+    height: auto;
+}
+.carousel-inner {
+  height: 500px;
+
 }
