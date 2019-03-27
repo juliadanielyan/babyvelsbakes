@@ -18,6 +18,11 @@ h2 {
   font-size: 3em;
 }
 
+p {
+  font-family: arial;
+  margin: 50px;
+}
+
 ul.menubar {
   list-style-type:none;
   font-family: arial;
