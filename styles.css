@@ -1,4 +1,4 @@
-div.babyvelsbakes, div.menubar, div.contact {
+div.babyvelsbakes, div.menubar {
   font-family: arial;
   text-align: center;
 }
@@ -13,47 +13,50 @@ h1 {
 }
 ul.menubar {
   list-style-type:none;
-  margin: 0;
-  padding: 0;
   font-family: arial;
-  list-style-type: none;
-  margin: 0;
+  margin-top: 15px;
   padding: 0;
   overflow: hidden;
   background-color: #fff6f0;
   border-style: solid;
   border-width: 1px;
   border-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 
   li a {
   display: block;
   color: #3f4447;
   text-align: center;
-  padding: 14px 16px;
+  font-size:16px;
+  padding: 14px 100px;
   text-decoration: none;
-}
-
-li{
-  float:left;
-  margin: 0 0 0 0;
 }
 
 li a:hover {
   background-color: white;
 }
-
-ul.contact {
-  list-style-type:none;
-  margin: 0;
-  padding: 0;
+.active {
+  border-color: #4CAF50;
 }
 
-li.menubar {
-  margin: 0 20px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+div.contact {
+  font-family: arial;
+  float:left;
+}
+
+ul.contact {
+ list-style-type: none;
+ float: left;
+ display:list-item;
+ align-items:flex-start;
+ justify-content:flex-start;
+
+}
+
+.bbv {
+    width: 700px;
+    height: auto;
 }
