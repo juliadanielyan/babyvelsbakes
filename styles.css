@@ -15,12 +15,13 @@ h1 {
 h2 {
   font-family: arial;
   text-align: center;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 p {
   font-family: arial;
   margin: 50px;
+  font-size:1em;
 }
 
 ul.menubar {
@@ -83,6 +84,10 @@ h3 {
 
 .aboutus {
   font-family: arial;
-  margin: 35px;
+  margin: 50px;
   padding: 0px;
+}
+
+.image {
+  text-align: center;
 }
