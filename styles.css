@@ -75,7 +75,14 @@ h3 {
     width: 700px;
     height: auto;
 }
+
 .carousel-inner {
   height: 500px;
 
+}
+
+.aboutus {
+  font-family: arial;
+  margin: 35px;
+  padding: 0px;
 }
