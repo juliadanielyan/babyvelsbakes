@@ -76,7 +76,7 @@ ion-icon {
   font-size: 30px;
 }
 
-.bbv { /* this is the logo on top */
+.BVB { /* this is the logo on top */
     width: 700px;
     height: auto;
 }
@@ -101,4 +101,20 @@ ion-icon {
 
 table {
   font-family: arial;
+}
+
+.socialmedia {
+  position: relative;
+  display: inline-block;
+  outline: 0;
+  padding: 0 15px;
+  padding-bottom: 8px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+}
+
+button {
+  text-align: center;
+  color: white;
 }
