@@ -76,14 +76,17 @@ ion-icon {
   font-size: 30px;
 }
 
-.BVB {
+.BVB { /* this is the logo on top */
     width: 700px;
     height: auto;
 }
 
 .carousel-inner {
   height: 500px;
+}
 
+.names_cake {
+  font-family: 'Pacifico', cursive;
 }
 
 .aboutus {
