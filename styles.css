@@ -88,10 +88,14 @@ ion-icon {
 
 .aboutus {
   font-family: arial;
-  margin: 50px;
+  margin: 75px;
   padding: 0px;
 }
 
 .image {
   text-align: center;
+}
+
+table {
+  font-family: arial;
 }
