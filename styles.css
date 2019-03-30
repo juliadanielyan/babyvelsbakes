@@ -99,3 +99,17 @@ ion-icon {
 table {
   font-family: arial;
 }
+
+.socialmedia {
+  position: relative;
+  display: inline-block;
+  outline: 0;
+  padding: 0 15px;
+  padding-bottom: 8px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+button {
+  text-align: center;
+}
