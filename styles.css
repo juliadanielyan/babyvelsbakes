@@ -108,8 +108,10 @@ table {
   padding-bottom: 8px;
   letter-spacing: 2px;
   text-align: center;
+  color: black;
 }
 
 button {
   text-align: center;
+  color: white;
 }
