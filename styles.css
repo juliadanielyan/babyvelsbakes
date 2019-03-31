@@ -47,7 +47,7 @@ ul.menubar {
   justify-content: center
 }
 
-li a {
+li a.menu, li a.BTS, li a.about, li a.home {
   display: block;
   color: #3f4447;
   text-align: center;
