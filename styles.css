@@ -76,6 +76,15 @@ ion-icon {
   font-size: 30px;
 }
 
+button {
+  text-align: center;
+  color: white;
+}
+
+table {
+  font-family: arial;
+}
+
 .BVB {
     width: 700px;
     height: auto;
@@ -99,6 +108,10 @@ ion-icon {
   text-align: center;
 }
 
+.logos {
+  text-align: center;
+}
+
 .socialmedia {
   position: relative;
   display: inline-block;
@@ -110,20 +123,6 @@ ion-icon {
   color: black;
 }
 
-.logos {
-  text-align: center;
-}
-
 .subscribe {
   position: relative;
   text-align: center;
-}
-
-button {
-  text-align: center;
-  color: white;
-}
-
-table {
-  font-family: arial;
-}
