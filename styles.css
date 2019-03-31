@@ -18,6 +18,10 @@ h2 {
   font-size: 2.5em;
 }
 
+h3 {
+  margin-bottom:0px;
+}
+
 p {
   font-family: arial;
   margin: 50px;
@@ -39,7 +43,6 @@ ul.menubar {
   justify-content: center
 }
 
-
 li a {
   display: block;
   color: #3f4447;
@@ -53,6 +56,7 @@ li a {
 li a:hover {
   background-color: white;
 }
+
 .active {
   border-color: #4CAF50;
 }
@@ -68,15 +72,11 @@ ul.contact {
  display:inline;
 }
 
-h3 {
-  margin-bottom:0px;
-}
-
 ion-icon {
   font-size: 30px;
 }
 
-.BVB { /* this is the logo on top */
+.BVB {
     width: 700px;
     height: auto;
 }
@@ -99,10 +99,6 @@ ion-icon {
   text-align: center;
 }
 
-table {
-  font-family: arial;
-}
-
 .socialmedia {
   position: relative;
   display: inline-block;
@@ -114,7 +110,20 @@ table {
   color: black;
 }
 
+.logos {
+  text-align: center;
+}
+
+.subscribe {
+  position: relative;
+  text-align: center;
+}
+
 button {
   text-align: center;
   color: white;
+}
+
+table {
+  font-family: arial;
 }
