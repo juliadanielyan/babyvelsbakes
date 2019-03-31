@@ -1,3 +1,7 @@
+head {
+  width: 100%;
+}
+
 div.babyvelsbakes, div.menubar {
   font-family: arial;
   text-align: center;
@@ -6,7 +10,7 @@ div.babyvelsbakes, div.menubar {
 body {
   background-color: #white;
   width: 100%;
-  height: 100%
+  height: 100%;
   min-width: 1000px;
   min-height: 1000px;
 }
@@ -44,7 +48,7 @@ ul.menubar {
   border-color: white;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 
 li a {
@@ -78,6 +82,7 @@ ul.contact {
 
 ion-icon {
   font-size: 30px;
+  align-items: center;
 }
 
 button {
@@ -116,15 +121,16 @@ table {
   text-align: center;
 }
 
-.socialmedia {
+ul.socialmedia {
   position: relative;
   display: inline-block;
   outline: 0;
   padding: 0 15px;
   padding-bottom: 8px;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   text-align: center;
-  color: black;
+  color: #000;
+  float: none;
 }
 
 .subscribe {
