@@ -2,6 +2,12 @@ head {
   width: 100%;
 }
 
+.BVB {
+    width: 700px;
+    height: auto;
+    margin-top: 20px;
+}
+
 div.babyvelsbakes {
   font-family: arial;
   text-align: center;
@@ -32,7 +38,7 @@ h3 {
 
 p {
   font-family: arial;
-  margin: 50px;
+  margin: 30vh 10vw;
   font-size: 1em;
 }
 
@@ -51,26 +57,14 @@ ul.menubar {
   justify-content: center;
 }
 
-li {
-  font-family: arial;
-  margin: 2px;
-  padding: 0;
-  background-color: #fff6f0;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #fff6f0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 li a {
-  display: block;
+  display: flex;
   color: black;
   text-align: center;
   font-size: 16px;
   padding: 14px 100px;
   text-decoration: none;
+  justify-content: space-evenly;
 }
 
 .active {
@@ -88,24 +82,14 @@ ul.contact {
  display: inline;
 }
 
-ion-icon {
-  font-size: 30px;
-  align-items: center;
-}
-
-button {
+button.btn btn-outline-success my-2 my-sm-0 {
   text-align: center;
-  color: grey;
+  color: black;
   background-color: white;
 }
 
 table {
   font-family: arial;
-}
-
-.BVB {
-    width: 700px;
-    height: auto;
 }
 
 .carousel-inner {
@@ -118,12 +102,21 @@ table {
 
 .aboutus {
   font-family: arial;
-  margin: 75px;
-  padding: 0px;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  padding: 0;
 }
 
 .image {
   text-align: center;
+  margin: 30px;
+}
+
+ion-icon {
+  font-size: 30px;
+  align-items: center;
 }
 
 .logos {
