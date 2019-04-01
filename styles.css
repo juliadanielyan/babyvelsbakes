@@ -165,7 +165,7 @@ ul.socialmedia {
 }
 
 .dropdown {
-  position: absolute;
+  position: relative;
   display: inline-block;
 }
 
