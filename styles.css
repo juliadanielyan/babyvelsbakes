@@ -43,31 +43,6 @@ p {
   font-size: 1em;
 }
 
-/* ul.menubar {
-  list-style-type: none;
-  font-family: arial;
-  margin-top: 15px;
-  padding: 18px 11px;
-  overflow: hidden;
-  background-color: #fff6f0;
-  border-style: solid;
-  border-width: 1px;
-  border-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-li a {
-  display: flex;
-  color: black;
-  text-align: center;
-  font-size: 16px;
-  padding: 14px 100px;
-  text-decoration: none;
-  justify-content: space-evenly;
-} */
-
 /* Style the navbar */
 #navbar {
   overflow: hidden;
@@ -131,7 +106,10 @@ button.btn btn-outline-success my-2 my-sm-0 {
 
 table {
   font-family: arial;
+  margin-left: 37px;
+  border-spacing: 200px;
 }
+
 
 .carousel-inner {
   height: 500px;
