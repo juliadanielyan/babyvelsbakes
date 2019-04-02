@@ -6,6 +6,7 @@ head {
     width: 700px;
     height: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 div.babyvelsbakes {
@@ -95,9 +96,10 @@ table {
   margin-right: 15px;
 }
 
-
 .carousel-inner {
   height: 500px;
+  z-index: -1;
+  margin-top: 10px;
 }
 
 .names_cake {
@@ -142,4 +144,58 @@ ul.socialmedia {
 .subscribe {
   position: relative;
   text-align: center;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #fff6f0;
+  color: black;
+  z-index: 1;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 55px;
+}
+
+#navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #fff6f0;
+  color: black;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+form.form-inline {
+  text-align: right;
+  margin: 9px;
+  margin-right: 70px;
 }
