@@ -27,24 +27,16 @@
   <body>
 
     <!-- the menu bar -->
-    <div class="menubar">
-      <ul class="menubar">
-        <li class="home">
-          <a href="index.html">HOME</a>
-        </li>
-        <li class="BTS">
-          <a href="bts.html">BEHIND THE SCENES</a>
-        </li>
-        <li class="menu">
-          <a href="menu.html">MENU</a>
-        </li>
-        <li class="about">
-          <a href="about_us.html">ABOUT US</a>
-        </li>
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </ul>
-    </div>
+      <div id="navbar">
+        <a class="active" href="index.html">HOME</a>
+        <a href="bts.html">BEHIND THE SCENES</a>
+        <a href="menu.html">MENU</a>
+        <a href="about_us.html">ABOUT US</a>
+        <form class="form-inline">
+         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
 
     <!-- about us page content -->
     <div class="aboutus">
@@ -71,7 +63,7 @@
        <p>Big love,</p>
        <p><em>Maxine.</em></p>
      </div>
-     
+
     </div>
 
     <!-- the contact bit at the botom -->
