@@ -6,6 +6,7 @@ head {
     width: 700px;
     height: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 div.babyvelsbakes {
@@ -42,31 +43,45 @@ p {
   font-size: 1em;
 }
 
-
-/* ul.menubar {
-  list-style-type: none;
-  font-family: arial;
-  margin-top: 15px;
-  padding: 18px 11px;
+/* Style the navbar */
+#navbar {
   overflow: hidden;
   background-color: #fff6f0;
-  border-style: solid;
-  border-width: 1px;
-  border-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center; */
+  padding: 10px 40px;
+  margin-bottom: 20px;
 }
 
-/* li a {
-  display: flex;
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
   color: black;
   text-align: center;
-  font-size: 16px;
-  padding: 14px 100px;
+  padding: 14px;
   text-decoration: none;
-  justify-content: space-evenly;
-} */
+}
+
+form.form-inline {
+  text-align: right;
+  margin-top: 9px;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
 
 .active {
   border-color: #4CAF50;
@@ -98,6 +113,7 @@ table {
 
 .carousel-inner {
   height: 500px;
+  position: relative;
 }
 
 .names_cake {
