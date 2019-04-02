@@ -92,7 +92,9 @@ button.btn btn-outline-success my-2 my-sm-0 {
 table {
   font-family: arial;
   margin-left: 37px;
+  border-spacing: 200px;
 }
+
 
 .carousel-inner {
   height: 500px;
