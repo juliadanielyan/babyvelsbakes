@@ -43,32 +43,6 @@ p {
   font-size: 1em;
 }
 
-
-/* ul.menubar {
-  list-style-type: none;
-  font-family: arial;
-  margin-top: 15px;
-  padding: 18px 11px;
-  overflow: hidden;
-  background-color: #fff6f0;
-  border-style: solid;
-  border-width: 1px;
-  border-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center; */
-}
-
-/* li a {
-  display: flex;
-  color: black;
-  text-align: center;
-  font-size: 16px;
-  padding: 14px 100px;
-  text-decoration: none;
-  justify-content: space-evenly;
-} */
-
 .active {
   border-color: #4CAF50;
 }
@@ -84,26 +58,20 @@ ul.contact {
  display: inline;
 }
 
-button.btn btn-outline-success my-2 my-sm-0 {
-  text-align: center;
-  color: black;
-  background-color: white;
-}
-
 table {
   font-family: arial;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: 15px;
+}
+
+.names_cake {
+  font-family: arial;
+  font-size: 20px;
 }
 
 .carousel-inner {
   height: 500px;
   z-index: -1;
   margin-top: 10px;
-}
-
-.names_cake {
-  font-family: 'arial', cursive;
 }
 
 .aboutus {
@@ -139,11 +107,6 @@ ul.socialmedia {
   text-align: center;
   color: #000;
   float: none;
-}
-
-.subscribe {
-  position: relative;
-  text-align: center;
 }
 
 .header {
@@ -198,4 +161,27 @@ form.form-inline {
   text-align: right;
   margin: 9px;
   margin-right: 70px;
+}
+
+.subscribe {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.btn-btn-secondary, .btn-btn-primary {
+  color: black;
+  background-color: white;
+}
+
+.modal-header {
+  background-color: #fff6f0;
+  color: black;
+}
+
+.btn-btn-primary {
+  margin: 5px;
+  font-size: 15px;
 }
