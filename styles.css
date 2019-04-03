@@ -10,7 +10,7 @@ head {
 }
 
 div.babyvelsbakes {
-  font-family: arial;
+  font-family: 'Source Sans Pro';
   text-align: center;
 }
 
@@ -25,22 +25,25 @@ body {
 h1 {
   color: #e85c69;
   font-size: 5em;
+  font-family: 'Playfair Display';
 }
 
 h2 {
-  font-family: arial;
   text-align: center;
   font-size: 2.5em;
+  font-family: 'Playfair Display';
 }
 
 h3 {
-  margin-bottom: 0px;
+  margin-bottom: 2px;
+  font-family: 'Playfair Display';
 }
 
 p {
-  font-family: arial;
+  font-family: 'Source Sans Pro';
   margin: 30vh 10vw;
-  font-size: 1em;
+  font-size: 1.25em;
+  padding: 5px;
 }
 
 .active {
@@ -59,13 +62,14 @@ ul.contact {
 }
 
 table {
-  font-family: arial;
+  font-family: 'Source Sans Pro';
   margin: 15px;
 }
 
 .names_cake {
-  font-family: arial;
+  font-family: 'Playfair Display';
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .carousel-inner {
@@ -75,7 +79,6 @@ table {
 }
 
 .aboutus {
-  font-family: arial;
   margin-top: 50px;
   margin-left: 150px;
   margin-right: 150px;
@@ -103,10 +106,11 @@ ul.socialmedia {
   outline: 0;
   padding: 0 15px;
   padding-bottom: 8px;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   text-align: center;
   color: #000;
   float: none;
+  font-family: 'Playfair Display';
 }
 
 .header {
@@ -120,6 +124,8 @@ ul.socialmedia {
   background-color: #fff6f0;
   color: black;
   z-index: 1;
+  font-family: 'Playfair Display';
+  letter-spacing: 2px;
 }
 
 #navbar a {
@@ -184,4 +190,26 @@ form.form-inline {
 .btn-btn-primary {
   margin: 5px;
   font-size: 15px;
+}
+
+.titles {
+  font-family: 'Playfair Display';
+  margin-top: 10px;
+}
+
+.contact_details, .contact {
+  font-family: 'Source Sans Pro'
+}
+
+li.contact_details {
+  font-size: 18px;
+}
+
+.bts_header {
+  text-align: center;
+}
+
+p.menu {
+  font-size: 10px;
+  text-align: justify;
 }
