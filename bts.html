@@ -1,106 +1,145 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
-    <title>Behind The Scenes</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  </head>
   <!-- the header-->
+  <head>
+
+   <title>babyvelsbakes</title>
+
+   <div class="babyvelsbakes">
+    <img class="BVB" src="BVB/Picture1.png">
+   </div>
+
+   <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="styles.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
 
   <body>
-  <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
-    <div class="babyvelsbakes">
-      <img class="bbv" src="BVB/Picture1.png">
-    </div>
-  <!-- the menu bar -->
 
-    <div class="menubar">
-      <ul class="menubar">
-        <li class="home">
-          <a href="index.html">HOME</a>
-        </li>
-        <li class="BTS">
-          <a href="bts.html">BEHIND THE SCENES</a>
-        </li>
-        <li class="menu">
-          <a href="menu.html">MENU</a>
-        </li>
-        <li class="about">
-          <a href="about_us.html">ABOUT US</a>
-        </li>
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </ul>
+    <!-- the navigation bar -->
+    <div id="navbar">
+      <a class="active" href="index.html">HOME</a>
+      <a href="bts.html">BEHIND THE SCENES</a>
+      <a href="menu.html">MENU</a>
+      <a href="about_us.html">ABOUT US</a>
+      <form class="form-inline">
+       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
 
-    <!-- the pics -->
+      <script src="js/script.js"></script>
+
+    <!-- First Photo Grid -->
     <div class="w3-row-padding w3-padding-16 w3-center" id="food">
-        <div class="w3-quarter">
-          <img src="1.png" alt="Sandwich" style="width:100%">
-          <h3>The Perfect Sandwich, A Real NYC Classic</h3>
-          <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-        </div>
-        <div class="w3-quarter">
-          <img src="2.png" alt="Steak" style="width:100%">
-          <h3>Let Me Tell You About This Steak</h3>
-          <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-        </div>
-        <div class="w3-quarter">
-          <img src="3.png" alt="Cherries" style="width:100%">
-          <h3>Cherries, interrupted</h3>
-          <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-          <p>What else?</p>
-        </div>
-        <div class="w3-quarter">
-          <img src="4.png" alt="Pasta and Wine" style="width:100%">
-          <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
-          <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-        </div>
+      <div class="w3-quarter">
+        <img src="BTS_images/1.jpg" alt="Cupcakes" style="width:100%">
+        <h3>Salted Caramel Cupcakes</h3>
+        <p>The making of one of BVB's most popular cupcakes.</p>
       </div>
-
-      <!-- Second Photo Grid-->
-      <div class="w3-row-padding w3-padding-16 w3-center">
-        <div class="w3-quarter">
-          <img src="5.png" alt="Popsicle" style="width:100%">
-          <h3>All I Need Is a Popsicle</h3>
-          <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-        </div>
-        <div class="w3-quarter">
-          <img src="6.png" alt="Salmon" style="width:100%">
-          <h3>Salmon For Your Skin</h3>
-          <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-        </div>
-        <div class="w3-quarter">
-          <img src="7.png" alt="Sandwich" style="width:100%">
-          <h3>The Perfect Sandwich, A Real Classic</h3>
-          <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-        </div>
-        <div class="w3-quarter">
-          <img src="8.png" alt="Croissant" style="width:100%">
-          <h3>Le French</h3>
-          <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-        </div>
+      <div class="w3-quarter">
+        <img src="BTS_images/2.jpg" alt="Pistachio and White Choc" style="width:100%">
+        <h3>Pistachio and White Chocolate</h3>
+        <p>Ingredients used for a cake inspired by a little café in town.</p>
       </div>
+      <div class="w3-quarter">
+        <img src="BTS_images/3.jpg" alt="Roses" style="width:100%">
+        <h3>Champagne and Roses</h3>
+        <p>The roses used for our incredible Champagne and Roses cake.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="BTS_images/4.jpg" alt="Brownies" style="width:100%">
+        <h3>White Chocolate, Walnut Brownies</h3>
+        <p>One of BVB's most popular bakes.</p>
+      </div>
+    </div>
 
+    <!-- Second Photo Grid-->
+    <div class="w3-row-padding w3-padding-16 w3-center">
+      <div class="w3-quarter">
+        <img src="BTS_images/5.jpg" alt="Cookie Dough" style="width:100%">
+        <h3>Eggless Cookie Dough</h3>
+        <p>Perfected eggless cookie dough for our Cookie Dough Brownies.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="BTS_images/6.jpg" alt="Cookies" style="width:100%">
+        <h3>Salted Caramel, Nutella Cookies</h3>
+        <p>Behind the scenes of BVB's first bakes.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="bts_images/7.jpg" alt="Buttercream" style="width:100%">
+        <h3>Swiss Meringue Buttercream</h3>
+        <p>Silky, smooth buttercream used for our delicious cakes.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="bts_images/8.jpg" alt="Vegan Banana Bread" style="width:100%">
+        <h3>Walnut, Nutmeg and Cinnamon Banana Bread</h3>
+        <p>The first trial of our now perfected vegan banana bread.</p>
+      </div>
+    </div>
 
     <!-- the contact bit at the botom -->
+    <!-- the contact bit at the botom -->
     <div class="contact">
-      <h3>Contact Us</h3>
-      <ul class="contact">
-        <li class="contact_details">07245 899 303</li>
-        <li class="contact_details">babyvelsbakes@gmail.com</li>
-      </ul>
-      <ion-icon name="logo-instagram"></ion-icon>
-      <ion-icon name="logo-facebook"></ion-icon>
-      <ion-icon name="logo-twitter"></ion-icon>
-    </div>
-  </div>
 
-</body>
+        <h2>Contact Us</h2>
+
+        <ul class="contact">
+          <li class="contact_details">babyvelsbakes@gmail.com</li>
+        </ul>
+
+        <div>
+          <ion-icon name="logo-instagram"></ion-icon>
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+        </div>
+
+         <ul class="socialmedia">
+          <a href="https://www.instagram.com/babyvelsbakes/">INSTAGRAM</a>
+          <a href="facebook.com">FACEBOOK</a>
+          <a href="twitter.com">TWITTER</a>
+         </ul>
+
+      <!-- Button trigger modal -->
+      <div id="subscribe" class="subscribe">
+        <form class="subscribe">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn-btn-primary" type="button" data-toggle="modal" data-target="#exampleModal">Subscribe</button>
+        </form>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Subscribe</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Thanks for subscribing to <em>babyvelsbakes</em> updates. Big love!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn-btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
 
 </html>

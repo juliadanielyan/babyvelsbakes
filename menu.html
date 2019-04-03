@@ -1,97 +1,135 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
-    <title>Menu</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
-  </head>
   <!-- the header-->
+  <head>
+
+   <title>babyvelsbakes</title>
+
+   <div class="babyvelsbakes">
+    <img class="BVB" src="BVB/Picture1.png">
+   </div>
+
+   <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="styles.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
 
   <body>
-  <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
-    <div class="babyvelsbakes">
-      <img class="bbv" src="BVB/Picture1.png">
-    </div>
-  <!-- the menu bar -->
 
-    <div class="menubar">
-      <ul class="menubar">
-        <li class="home">
-          <a href="index.html">HOME</a>
-        </li>
-        <li class="BTS">
-          <a href="bts.html">BEHIND THE SCENES</a>
-        </li>
-        <li class="menu">
-          <a href="menu.html">MENU</a>
-        </li>
-        <li class="about">
-          <a href="about_us.html">ABOUT US</a>
-        </li>
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </ul>
+    <!-- the navigation bar -->
+    <div id="navbar">
+      <a class="active" href="index.html">HOME</a>
+      <a href="bts.html">BEHIND THE SCENES</a>
+      <a href="menu.html">MENU</a>
+      <a href="about_us.html">ABOUT US</a>
+      <form class="form-inline">
+       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
 
-<!-- The menu -->
-  <div>
+      <script src="js/script.js"></script>
+
+    <!-- The menu -->
+    <div>
      <table style="width:100%">
       <tr class="names_cake">
-        <td><img src="BVB/IMG_3702.jpeg"  alt="the Olivia cake" width="400" height="333">
-         <figcaption>The Olivia Cake</figcaption>
-        </td>
-        <td>  <img src="BVB/IMG_6560.jpeg"  alt="the Tiana cake" width="400" height="333">
-          <figcaption>The Tiana Cake</figcaption>
-        </td>
-        <td><img src="BVB/IMG_6526.jpeg"  alt="Eden's garden" width="400" height="333">
-         <figcaption>Eden's Garden</figcaption>
-        </td>
-      </tr>
-      <tr class="names_cake">
-        <td><img src="BVB/IMG_6429.jpeg"  alt="the Hulk cake" width="400" height="333">
-         <figcaption>The Hulk Cake</figcaption>
-        </td>
-        <td><img src="BVB/IMG_7095.jpeg"  alt="The Ultimate Bueno cake" width="400" height="333">
-         <figcaption>The Ultimate Bueno Cake</figcaption>
-        </td>
-        <td><img src="BVB/IMG_7015.jpeg"  alt="The Rose and Chocolate cake" width="400" height="333">
-         <figcaption>The Best of Both</figcaption>
-        </td>
-      </tr>
-      <tr class="names_cake">
-        <td><img src="BVB/IMG_6923.jpeg"  alt="The Champagne cake" width="400" height="333">
+        <td><img src="BVB/IMG_6923.jpeg"  alt="The Champagne and Roses Cake" width="400" height="333">
          <figcaption>The Champagne and Roses Cake</figcaption>
         </td>
-        <td><img src="BVB/IMG_6082.jpeg"  alt="The Graduation cake" width="400" height="333">
-         <figcaption>The Faye Cake</figcaption>
+        <td><img src="BVB/IMG_3702.jpg"  alt="The Olivia Cake" width="400" height="333" >
+         <figcaption>The Olivia Cake</figcaption>
         </td>
-        <td><img src="BVB/IMG_5820.jpeg"  alt="The Blue cake" width="400" height="333">
-         <figcaption>The Fererro Blue Cake</figcaption>
+        <td>  <img src="BVB/IMG_6560.jpeg"  alt="The Tiana Cake" width="400" height="333">
+          <figcaption>The Tiana Cake</figcaption>
         </td>
       </tr>
-    </table>
-  </div>
+      <tr class="names_cake">
+        <td><img src="BVB/IMG_5820.jpeg"  alt="The FererronBlue Cake" width="400" height="333">
+         <figcaption>The Fererro Blue Cake</figcaption>
+        </td>
+        <td><img src="BVB/IMG_7015.jpeg"  alt="The Best of Both Cake" width="400" height="333">
+         <figcaption>The Best of Both</figcaption>
+        </td>
+        <td><img src="BVB/IMG_6429.jpeg"  alt="The Hulk Cake" width="400" height="333">
+         <figcaption>The Hulk Cake</figcaption>
+        </td>
+      </tr>
+      <tr class="names_cake">
+        <td><img src="BVB/IMG_6526.jpeg"  alt="The Eden Cake" width="400" height="333">
+         <figcaption>The Eden Cake</figcaption>
+        </td>
+        <td><img src="BVB/IMG_6082.jpeg"  alt="The Faye Cake" width="400" height="333">
+         <figcaption>The Faye Cake</figcaption>
+        </td>
+        <td><img src="BVB/IMG_7095.jpeg"  alt="The Ultimate Bueno Cake" width="400" height="333">
+         <figcaption>The Ultimate Bueno Cake</figcaption>
+        </td>
+      </tr>
+     </table>
+    </div>
 
     <!-- the contact bit at the botom -->
     <div class="contact">
-      <h3>Contact Us</h3>
-      <ul class="contact">
-        <li class="contact_details">07245 899 303</li>
-        <li class="contact_details">babyvelsbakes@gmail.com</li>
-      </ul>
-      <ion-icon name="logo-instagram"></ion-icon>
-      <ion-icon name="logo-facebook"></ion-icon>
-      <ion-icon name="logo-twitter"></ion-icon>
-    </div>
-  </div>
 
-</body>
+        <h2>Contact Us</h2>
+
+        <ul class="contact">
+          <li class="contact_details">babyvelsbakes@gmail.com</li>
+        </ul>
+
+        <div>
+          <ion-icon name="logo-instagram"></ion-icon>
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+        </div>
+
+         <ul class="socialmedia">
+          <a href="https://www.instagram.com/babyvelsbakes/">INSTAGRAM</a>
+          <a href="facebook.com">FACEBOOK</a>
+          <a href="twitter.com">TWITTER</a>
+         </ul>
+
+      <!-- Button trigger modal -->
+      <div id="subscribe" class="subscribe">
+        <form class="subscribe">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn-btn-primary" type="button" data-toggle="modal" data-target="#exampleModal">Subscribe</button>
+        </form>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Subscribe</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Thanks for subscribing to <em>babyvelsbakes</em> updates. Big love!
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn-btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
 
 </html>
